@@ -139,7 +139,7 @@ values."
                                :size 15
                                :weight normal
                                :width normal
-                               :powerline-scale 1.8)
+                               :powerline-scale 1.3)
    ;; The leader key
    dotspacemacs-leader-key "SPC"
    ;; The key used for Emacs commands (M-x) (after pressing on the leader key).
@@ -312,8 +312,8 @@ layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
-  (set-frame-parameter (selected-frame) 'alpha '(85 . 50))
-  (add-to-list 'default-frame-alist '(alpha . (85 . 50)))
+  (set-frame-parameter (selected-frame) 'alpha '(89 . 50))
+  (add-to-list 'default-frame-alist '(alpha . (89 . 50)))
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
