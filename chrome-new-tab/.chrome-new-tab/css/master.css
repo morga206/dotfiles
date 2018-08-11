@@ -1,0 +1,228 @@
+/* Define colors for throughout the site */
+:root {
+    --bg-color: #B9DABB;
+    --content-bg-color: #A0C9A0;
+    --header-color: #5CA060;
+    --highlight-color: #89BE8C;
+    --toolbar-color: #3A853F;
+    --darkest-color: #206C25;
+    --even-darker-color: #10511A;
+    /* --lightest-color: #DCF8DE; */
+    --lightest-color: rgba(220, 248, 222, 0.4);
+    --table-row-color: #8CC090;
+}
+
+/*  */
+/*  */
+/* General page css */
+/*  */
+/*  */
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+  /* margin: 0; */
+  /* margin-left: 5%; */
+  /* margin-right: 5%; */
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: #aaffaa; */
+  /* background-color: #4E6D68; */
+  /* background-color: #f8f9fa; */
+  /* background-color: var(--bg-color); */
+  background-image: url("../images/deer_sunset.png");
+}
+
+button {
+    background-color: #3C8040;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+
+p, li {
+    line-height: 1.5;
+}
+
+
+ul {
+    list-style: square;
+    padding: 15px;
+}
+
+/*  */
+/*  */
+/* Header-specific css */
+/*  */
+/*  */
+div.header {
+  /* header image goes here */
+  /* background-color: var(--even-darker-color); */
+  padding: 5px;
+  display: flex;
+  /* margin-left: 0; */
+  /* margin-right: 0; */
+}
+
+div.title {
+    /*padding: 32px;
+    padding-top: 40px; */
+    flex: 65%;
+}
+
+div.title h1, div.title h2, div.title p {
+  text-align: left;
+  /* background-color: #5CA060; */
+  background-color: none;
+  padding: -10px;
+  margin: 4px;
+  border-radius: none;
+  color: white;
+  opacity: 1.0;
+}
+
+div.title h1 {
+    font: normal 1.9em;
+    margin-bottom: 5px;
+}
+
+div.title h2 {
+    font: normal 1.7em;
+}
+
+div.title p {
+    font: normal 0.9em;
+}
+
+#ef-logo {
+    margin-top: 40px;
+}
+
+div.header-image {
+    margin-left: auto;
+    margin-top: -15px;
+    /* padding: 22px; */
+    /* padding-top: 30px; */
+}
+
+div.header-image img {
+    width:20%;
+    float: right;
+    opacity: 1.0;
+}
+
+/*  */
+/*  */
+/* Main body specific css */
+/*  */
+/*  */
+.content {
+    /* background-color: var(--bg-color); */
+    /* background-color: var(--content-bg-color); */
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.content h1, div.content h2 {
+    opacity: 1.0;
+    text-align: center;
+    /* background-color: #5CA060; */
+    background-color: var(--toolbar-color);
+    padding: 10px;
+    border-radius: 15px;
+    color: #f2f2f2;
+}
+
+div.main-box, div.side-box {
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+div.main-box {
+    float: left;
+    flex: 100%;
+    /* border: 2px solid #5CA060; */
+    border: 2px solid var(--darkest-color);
+    border-radius: 15px;
+    background-color: var(--lightest-color);
+    /* opacity: 0.3; */
+    /* margin-right: 10px; */
+}
+
+div.main-box img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    opacity: 1.0;
+}
+
+/*  */
+/*  */
+/* navigation bar css */
+/*  */
+/*  */
+.topnav {
+    display: flex;
+    /*overflow: hidden;*/
+    /* background-color: #0C4517; */
+    /* background-color: #3C8040; */
+    /* background-color: var(--toolbar-color); */
+    background-color: var(--darkest-color);
+}
+
+.topnav a {
+    /*float: left;
+    display: block;*/
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: var(--highlight-color);
+    color: black;
+}
+
+
+
+/* Scratchwork */
+/*  */
+/*  */
+/*side box*/
+/* div.side-box { */
+/*     float: left; */
+/*     flex: 34%; */
+/* } */
+
+/* hacky spacer */
+/*div.space-box {
+    float: left;
+    flex: 1%;
+}*/
+/* responsive columns */
+/* @media screen and (max-width: 480px) { */
+/*     .topnav, .content { */
+/*         flex-direction: column; */
+/*         text-align: center; */
+/*     } */
+/* } */
+
+/* /\* responsive columns *\/ */
+/* @media screen and (max-width: 480px) { */
+/*     .main-box{ */
+/*         margin-right: unset; */
+/*     } */
+/* } */
