@@ -1,0 +1,6 @@
+#!/bin/bash
+scrot ~/Pictures/lock.png
+convert -noise 0x8 ~/Pictures/lock.png ~/Pictures/lock.png
+#convert +noise Laplacian ~/Pictures/lock.png ~/Pictures/lock.png
+#convert -blur 0x2 ~/Pictures/lock.png ~/Pictures/lock.png
+i3lock -i ~/Pictures/lock.png
