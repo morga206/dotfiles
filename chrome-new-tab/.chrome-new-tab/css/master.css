@@ -210,69 +210,70 @@ div.main-box img {
     margin: 0;
     padding: 0;
     /* overflow: hidden; */
-    display: flex;
+    /* display: flex; */
     /* align-items: stretch;  */
-    justify-content: center;
+    /* justify-content: center; */
     width: 100%;
     /* background-color: #333; */
 }
 
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
 .topnav li {
     /* float: left; */
-    /* display: block; */
+    display: block;
+    list-style-type: none;
     /* flex-grow: 1; */
     flex: 0 1 100%;
     /* margin: auto; */
     /* align-items: stretch; */
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
 }
 
-.topnav li a, .dropbtn {
+.topnav li a {
     /*float: left;
     display: block;*/
+    display: flex;
     color: var(--light-text-color);
-    flex: 0 1 100%;
+    /* flex: 0 1 100%; */
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-.topnav li a:hover, .dropdown:hover .dropbtn {
+.topnav li a:hover {
     background-color: var(--highlight-color);
 }
 
-/* Dropdown menu stuff */
-li.dropdown {
-    flex: 0 1 100%;
-    /* display: flex; */
-    flex-direction: column;
-}
-
-.dropdown-content {
+.topnav ul ul {
     display: none;
-    /* position: absolute; */
-    /* background-color: #f9f9f9; */
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    overflow: visible;
+    position: absolute;
 }
 
-.dropdown-content a {
-    /* color: black; */
-    padding: 12px 16px;
-    text-decoration: none;
+.topnav ul li:hover > ul {
     display: block;
-    text-align: center;
+    color: var(--highlight-color);
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.sub-menu {
+    li {
+        display: flex;
+        /* padding-right: 2em; */
+    }
 
-.dropdown:hover .dropdown-content {
-    display: block;
+    li:hover, li a:hover {
+        background: var(--dusty-color);
+    }
 }
 
+.topnav ul ul ul {
+    margin: 0 0 0 100%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+}
 
 
 /* Scratchwork */
