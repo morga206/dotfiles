@@ -5,7 +5,7 @@
     --header-color: #5CA060;
     /* --highlight-color: #89BE8C; */
     --highlight-color: rgba(107, 160, 110, 0.4);
-    --highlight-solid-color: rgba(107, 160, 110);
+    --highlight-solid-color: rgba(107, 130, 110, 0.8);
     --toolbar-color: #3A853F;
     /* --darkest-color: #206C25; */
     --darkest-color: rgba(32, 68, 37, 0.4);
@@ -235,8 +235,9 @@ div.main-box img {
     text-align: center;
 }
 
+/* .topnav ul.menu li.top-menu a.top-link:hover,  */
 /* Make links highlighted when hovering */
-.topnav ul.menu li.top-menu a.top-link:hover, .topnav ul.menu li.top-menu:hover {
+.topnav ul.menu li.top-menu:hover {
     background-color: var(--highlight-solid-color);
 }
 
@@ -259,7 +260,7 @@ div.main-box img {
 .topnav ul.menu li.top-menu:hover ul.submenu li {
     display: flex;
     justify-content: center;
-    background-color: var(--highlight-solid-color);
+    /* background-color: var(--highlight-solid-color); */
 }
 
 /* ...And formatting the links within */
@@ -270,12 +271,13 @@ div.main-box img {
 
 /* Gotta make em colorful when hovering! */
 .topnav ul.menu li.top-menu ul.submenu li a:hover {
-    background-color: --var(--magenta-color);
-    border: 1px solid black;
+    background-color: var(--magenta-color);
+    /* border: 1px solid black; */
 }
 
 .topnav ul.menu li.top-menu ul.submenu li:hover {
-    background-color: --var(--magenta-color);
+    background-color: var(--magenta-color);
+    border: 1px solid black;
 }
 
 /* .topnav ul { */
