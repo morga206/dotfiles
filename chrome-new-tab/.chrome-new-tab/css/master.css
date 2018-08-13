@@ -199,64 +199,105 @@ div.main-box img {
     margin-left: 10px;
 }
 
+/* This is for ALL lists in the nav bar */
 .topnav ul {
     list-style-type: none;
+}
+
+/* This is for the top-level lists that are horizontal */
+.topnav ul.menu {
+    display: flex;
+    flex-direction: row;
     margin: 0;
     padding: 0;
 }
 
-.menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.topnav li {
-    display: block;
-    list-style-type: none;
+/* This is for the list items in the top level */
+.topnav ul.menu li.top-menu {
     flex: 0 1 100%;
+    display: flex;
     justify-content: center;
-    padding: 5px;
 }
 
-.topnav ul.menu li a {
+/* This is for the links inside those top-level lists */
+.topnav ul.menu li.top-menu a {
     color: var(--light-text-color);
-    text-align: center;
-    /* padding: 0.9em; */
-    /* padding: 14px 16px; */
-    padding: 5px;
     text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    flex: 0 1 100%;
+    text-align: center;
 }
 
-.topnav li a:hover {
+/* Make links highlighted when hovering */
+.topnav ul.menu li.top-menu a:hover, .topnav ul.menu li.top-menu:hover {
     background-color: var(--highlight-solid-color);
 }
 
-.topnav ul ul {
+/* This is for the sub-level lists when not hovered */
+.topnav ul.menu li.top-menu ul.submenu {
     display: none;
-    position: absolute;
 }
 
-.topnav ul li:hover > ul {
-    display: block;
-    background-color: var(--highlight-solid-color);
-    padding-left: 0;
-}
 
-.sub-menu {
-    li {
-        display: flex;
-    }
+/* .topnav ul { */
+/*     list-style-type: none; */
+/*     margin: 0; */
+/*     padding: 0; */
+/* } */
 
-    li:hover, li a:hover {
-        background-color: var(--magenta-color);
-    }
-}
+/* .menu { */
+/*     display: flex; */
+/*     flex-direction: row; */
+/*     justify-content: center; */
+/* } */
 
-.topnav ul ul ul {
-    margin: 0 0 0 100%;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
-}
+/* .topnav li { */
+/*     display: block; */
+/*     list-style-type: none; */
+/*     flex: 0 1 100%; */
+/*     justify-content: center; */
+/*     padding: 5px; */
+/* } */
+
+/* .topnav ul.menu li a { */
+/*     color: var(--light-text-color); */
+/*     text-align: center; */
+/*     /\* padding: 0.9em; *\/ */
+/*     /\* padding: 14px 16px; *\/ */
+/*     padding: 5px; */
+/*     text-decoration: none; */
+/* } */
+
+/* .topnav li a:hover { */
+/*     background-color: var(--highlight-solid-color); */
+/* } */
+
+/* .topnav ul ul { */
+/*     display: none; */
+/*     position: absolute; */
+/* } */
+
+/* .topnav ul li:hover > ul { */
+/*     display: block; */
+/*     background-color: var(--highlight-solid-color); */
+/*     padding-left: 0; */
+/* } */
+
+/* .sub-menu { */
+/*     li { */
+/*         display: flex; */
+/*     } */
+
+/*     li:hover, li a:hover { */
+/*         background-color: var(--magenta-color); */
+/*     } */
+/* } */
+
+/* .topnav ul ul ul { */
+/*     margin: 0 0 0 100%; */
+/*     box-shadow: 0 0 2px rgba(0, 0, 0, 0.6); */
+/* } */
 
 
 /* Scratchwork */
