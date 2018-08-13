@@ -270,14 +270,14 @@ div.main-box img {
 }
 
 /* Gotta make em colorful when hovering! */
-.topnav ul.menu li.top-menu ul.submenu li a:hover {
-    background-color: var(--magenta-color);
-    /* border: 1px solid black; */
-}
+/* .topnav ul.menu li.top-menu ul.submenu li a:hover { */
+/*     background-color: var(--magenta-color); */
+/*     /\* border: 1px solid black; *\/ */
+/* } */
 
 .topnav ul.menu li.top-menu ul.submenu li:hover {
     background-color: var(--magenta-color);
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 /* .topnav ul { */
