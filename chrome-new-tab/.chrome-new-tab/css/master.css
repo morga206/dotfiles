@@ -217,6 +217,7 @@ div.main-box img {
     flex: 0 1 100%;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 /* This is for the links inside those top-level lists */
@@ -237,6 +238,19 @@ div.main-box img {
 /* This is for the sub-level lists when not hovered */
 .topnav ul.menu li.top-menu ul.submenu {
     display: none;
+}
+
+/* This is to reveal the submenu when hovering over a top-level list entry */
+.topnav ul.menu li.top-menu:hover ul.submenu {
+    display: block;
+    position: absolute;
+    top: 44px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+}
+
+/* This is formatting for the submenu list entries */
+.topnav ul.menu li.top-menu:hover ul.submenu li a{
+    display: inline-block
 }
 
 
