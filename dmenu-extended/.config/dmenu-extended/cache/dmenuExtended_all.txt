@@ -1,0 +1,131 @@
+e
+c
+n
+s
+l
+i3
+cn
+Vim
+Feh
+cns
+zal
+Htop
+Emacs
+Panel
+CMake
+Neovim
+Firefox
+Display
+Log Out
+compton
+i3-edit
+Keyboard
+Desktop 
+Terminal
+GTK+ Demo
+Workspaces
+Appearance
+About Xfce
+Web Browser
+Bulk Rename
+Mail Reader
+File Manager
+Icon Browser
+Google Chrome
+Xfce Terminal
+Accessibility
+Power Manager
+Window Manager
+Run Program...
+Widget Factory
+Settings Editor
+Settings Manager
+MIME Type Editor
+Terminal Emulator
+Application Finder
+Mouse and Touchpad
+Thunar File Manager
+Session and Startup
+/home/drew/Desktop/
+/home/drew/scripts/
+Qt V4L2 test Utility
+/home/drew/dotfiles/
+/home/drew/Pictures/
+Window Manager Tweaks
+/home/drew/git-repos/
+Avahi Zeroconf Browser
+PulseAudio System Tray
+Preferred Applications
+Open Folder with Thunar
+/home/drew/dotfiles/i3/
+Avahi VNC Server Browser
+Avahi SSH Server Browser
+/home/drew/dotfiles/zsh/
+/home/drew/git-repos/yay/
+/home/drew/dotfiles/nvim/
+Removable Drives and Media
+Create Launcher on the panel
+/home/drew/dotfiles/compton/
+/home/drew/dotfiles/scripts/
+/home/drew/git-repos/yay/pkg/
+/home/drew/git-repos/yay/src/
+/home/drew/dotfiles/neofetch/
+/home/drew/dotfiles/i3blocks/
+/home/drew/dotfiles/README.md
+PolicyKit Authentication Agent
+/home/drew/dotfiles/spacemacs/
+/home/drew/Pictures/wallpapers/
+/home/drew/git-repos/yay/pkg/yay/
+/home/drew/dotfiles/dmenu-extended/
+/home/drew/dotfiles/chrome-new-tab/
+/home/drew/dotfiles/scripts/scripts/
+/home/drew/git-repos/wd719x-firmware/
+/home/drew/git-repos/yay/pkg/yay/usr/
+/home/drew/git-repos/aic94xx-firmware/
+/home/drew/git-repos/yay/src/yay-8.998/
+/home/drew/git-repos/yay/pkg/yay/usr/bin/
+/home/drew/git-repos/wd719x-firmware/pkg/
+/home/drew/git-repos/wd719x-firmware/src/
+/home/drew/git-repos/aic94xx-firmware/pkg/
+/home/drew/git-repos/aic94xx-firmware/src/
+/home/drew/git-repos/yay/pkg/yay/usr/share/
+/home/drew/git-repos/yay/src/yay-8.998/doc/
+/home/drew/git-repos/yay/src/yay-8.998/vendor/
+/home/drew/git-repos/aic94xx-firmware/src/lib/
+/home/drew/Pictures/wallpapers/deer_sunset.png
+/home/drew/git-repos/yay/pkg/yay/usr/share/man/
+/home/drew/git-repos/yay/pkg/yay/usr/share/zsh/
+/home/drew/git-repos/yay/pkg/yay/usr/share/fish/
+/home/drew/git-repos/yay/src/yay-8.998/testdata/
+/home/drew/git-repos/yay/src/yay-8.998/README.md
+/home/drew/git-repos/yay/src/yay-8.998/completions/
+/home/drew/git-repos/yay/pkg/yay/usr/share/man/man8/
+/home/drew/git-repos/yay/src/yay-8.998/testdata/keys/
+/home/drew/git-repos/aic94xx-firmware/src/lib/firmware/
+/home/drew/git-repos/yay/src/yay-8.998/ISSUE_TEMPLATE.md
+/home/drew/git-repos/yay/src/yay-8.998/vendor/github.com/
+/home/drew/git-repos/wd719x-firmware/pkg/wd719x-firmware/
+/home/drew/git-repos/aic94xx-firmware/src/README-94xx.pdf
+/home/drew/git-repos/yay/pkg/yay/usr/share/bash-completion/
+/home/drew/git-repos/aic94xx-firmware/pkg/aic94xx-firmware/
+/home/drew/dotfiles/scripts/scripts/hangups_manual_login.py
+/home/drew/git-repos/wd719x-firmware/pkg/wd719x-firmware/usr/
+/home/drew/git-repos/yay/pkg/yay/usr/share/zsh/site-functions/
+/home/drew/git-repos/yay/src/yay-8.998/vendor/github.com/jguer/
+/home/drew/git-repos/aic94xx-firmware/pkg/aic94xx-firmware/usr/
+/home/drew/git-repos/wd719x-firmware/pkg/wd719x-firmware/usr/lib/
+/home/drew/git-repos/aic94xx-firmware/pkg/aic94xx-firmware/usr/lib/
+/home/drew/git-repos/yay/pkg/yay/usr/share/fish/vendor_completions.d/
+/home/drew/git-repos/yay/src/yay-8.998/vendor/github.com/Morganamilo/
+/home/drew/git-repos/yay/src/yay-8.998/vendor/github.com/mikkeloscar/
+/home/drew/git-repos/aic94xx-firmware/pkg/aic94xx-firmware/usr/share/
+/home/drew/git-repos/yay/pkg/yay/usr/share/bash-completion/completions/
+/home/drew/git-repos/yay/src/yay-8.998/vendor/github.com/jguer/go-alpm/
+/home/drew/git-repos/yay/src/yay-8.998/vendor/github.com/mikkeloscar/aur/
+/home/drew/git-repos/aic94xx-firmware/pkg/aic94xx-firmware/usr/share/doc/
+/home/drew/git-repos/wd719x-firmware/pkg/wd719x-firmware/usr/lib/firmware/
+/home/drew/git-repos/aic94xx-firmware/pkg/aic94xx-firmware/usr/lib/firmware/
+/home/drew/git-repos/yay/src/yay-8.998/vendor/github.com/Morganamilo/go-srcinfo/
+/home/drew/git-repos/aic94xx-firmware/pkg/aic94xx-firmware/usr/share/doc/aic94xx-firmware/
+/home/drew/git-repos/aic94xx-firmware/pkg/aic94xx-firmware/usr/share/doc/aic94xx-firmware/README-94xx.pdf
+rebuild cache

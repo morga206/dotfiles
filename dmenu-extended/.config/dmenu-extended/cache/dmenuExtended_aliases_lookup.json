@@ -1,0 +1,238 @@
+[
+    [
+        "Vim",
+        "vim;"
+    ],
+    [
+        "Web Browser",
+        "exo-open --launch WebBrowser"
+    ],
+    [
+        "Firefox",
+        "/usr/lib/firefox/firefox"
+    ],
+    [
+        "Bulk Rename",
+        "/usr/lib/Thunar/ThunarBulkRename"
+    ],
+    [
+        "File Manager",
+        "exo-open --launch FileManager"
+    ],
+    [
+        "Google Chrome",
+        "google-chrome-stable"
+    ],
+    [
+        "Mail Reader",
+        "exo-open --launch MailReader"
+    ],
+    [
+        "Avahi VNC Server Browser",
+        "bvnc"
+    ],
+    [
+        "PolicyKit Authentication Agent",
+        "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
+    ],
+    [
+        "Terminal Emulator",
+        "exo-open --launch TerminalEmulator"
+    ],
+    [
+        "Window Manager",
+        "xfwm4-settings"
+    ],
+    [
+        "Workspaces",
+        "xfwm4-workspace-settings"
+    ],
+    [
+        "Emacs",
+        "emacs"
+    ],
+    [
+        "Panel",
+        "xfce4-panel --preferences"
+    ],
+    [
+        "Neovim",
+        "nvim;"
+    ],
+    [
+        "Keyboard",
+        "xfce4-keyboard-settings"
+    ],
+    [
+        "Run Program...",
+        "xfce4-appfinder --collapsed"
+    ],
+    [
+        "Xfce Terminal",
+        "xfce4-terminal"
+    ],
+    [
+        "Feh",
+        "feh"
+    ],
+    [
+        "Widget Factory",
+        "gtk3-widget-factory"
+    ],
+    [
+        "Avahi Zeroconf Browser",
+        "avahi-discover"
+    ],
+    [
+        "Display",
+        "xfce4-display-settings"
+    ],
+    [
+        "Create Launcher on the panel",
+        "xfce4-panel --add=launcher"
+    ],
+    [
+        "Window Manager Tweaks",
+        "xfwm4-tweaks-settings"
+    ],
+    [
+        "PulseAudio System Tray",
+        "pasystray"
+    ],
+    [
+        "Preferred Applications",
+        "exo-preferred-applications"
+    ],
+    [
+        "Desktop ",
+        "xfdesktop-settings"
+    ],
+    [
+        "i3",
+        "i3"
+    ],
+    [
+        "Settings Editor",
+        "xfce4-settings-editor"
+    ],
+    [
+        "Qt V4L2 test Utility",
+        "qv4l2"
+    ],
+    [
+        "Log Out",
+        "xfce4-session-logout"
+    ],
+    [
+        "Appearance",
+        "xfce4-appearance-settings"
+    ],
+    [
+        "Thunar File Manager",
+        "thunar"
+    ],
+    [
+        "compton",
+        "compton --xrender-sync-fence"
+    ],
+    [
+        "Removable Drives and Media",
+        "thunar-volman-settings"
+    ],
+    [
+        "Accessibility",
+        "xfce4-accessibility-settings"
+    ],
+    [
+        "Settings Manager",
+        "xfce4-settings-manager"
+    ],
+    [
+        "Terminal",
+        "gnome-terminal"
+    ],
+    [
+        "Avahi SSH Server Browser",
+        "bssh"
+    ],
+    [
+        "MIME Type Editor",
+        "xfce4-mime-settings"
+    ],
+    [
+        "Application Finder",
+        "xfce4-appfinder"
+    ],
+    [
+        "Open Folder with Thunar",
+        "thunar"
+    ],
+    [
+        "Mouse and Touchpad",
+        "xfce4-mouse-settings"
+    ],
+    [
+        "About Xfce",
+        "xfce4-about"
+    ],
+    [
+        "Icon Browser",
+        "gtk3-icon-browser"
+    ],
+    [
+        "GTK+ Demo",
+        "gtk3-demo"
+    ],
+    [
+        "Htop",
+        "htop;"
+    ],
+    [
+        "CMake",
+        "cmake-gui"
+    ],
+    [
+        "Session and Startup",
+        "xfce4-session-settings"
+    ],
+    [
+        "Power Manager",
+        "xfce4-power-manager-settings"
+    ],
+    [
+        "e",
+        "exit"
+    ],
+    [
+        "c",
+        "clear"
+    ],
+    [
+        "n",
+        "neofetch"
+    ],
+    [
+        "cn",
+        "clear && neofetch"
+    ],
+    [
+        "cns",
+        "clear && neofetch && scrot -d 5 ~/Pictures/screenshots/%Y-%m-%d.png"
+    ],
+    [
+        "s",
+        "source ~/.zshrc"
+    ],
+    [
+        "i3-edit",
+        "nvim ~/.i3/config"
+    ],
+    [
+        "l",
+        "ls -al"
+    ],
+    [
+        "zal",
+        "nvim ~/.zsh_aliases"
+    ]
+]

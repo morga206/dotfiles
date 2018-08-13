@@ -260,8 +260,10 @@ bar {
     status_command i3blocks
     #status_command i3status
     position top 
+    #font DejaVu Sans, FontAwesome 8
     font pango:Hack, FontAwesome 8
     #font pango:Terminus, FontAwesome 8
+    #font Noto Sans Mono, FontAwesome 8
     #tray_padding 0
     #tray_output: none
     strip_workspace_numbers yes
@@ -310,7 +312,7 @@ exec ~/.fehbg &
     #exec_always --no-startup-id xscreensaver -no-splash &     
     #exec_always --no-startup-id xss-lock -- i3lock -i /usr/share/pixmaps/river_sunset_scaled.png &
     exec_always --no-startup-id xss-lock -- ~/scripts/scramble &
-bindsym $mod+Shift+v exec ~/.vim-anywhere/bin/run
+#bindsym $mod+Shift+v exec ~/.vim-anywhere/bin/run
 
 #exec_always --no-startup-id xss-lock -- /home/drew/.local/bin/asciiquarium_screensaver &
 

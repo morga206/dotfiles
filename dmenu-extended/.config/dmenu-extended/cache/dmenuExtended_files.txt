@@ -1,0 +1,7 @@
+/home/drew/git-repos/yay/src/yay-8.998/ISSUE_TEMPLATE.md
+/home/drew/git-repos/yay/src/yay-8.998/README.md
+/home/drew/git-repos/aic94xx-firmware/pkg/aic94xx-firmware/usr/share/doc/aic94xx-firmware/README-94xx.pdf
+/home/drew/git-repos/aic94xx-firmware/src/README-94xx.pdf
+/home/drew/dotfiles/README.md
+/home/drew/dotfiles/scripts/scripts/hangups_manual_login.py
+/home/drew/Pictures/wallpapers/deer_sunset.png

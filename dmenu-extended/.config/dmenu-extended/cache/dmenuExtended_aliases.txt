@@ -1,0 +1,59 @@
+Vim
+Web Browser
+Firefox
+Bulk Rename
+File Manager
+Google Chrome
+Mail Reader
+Avahi VNC Server Browser
+PolicyKit Authentication Agent
+Terminal Emulator
+Window Manager
+Workspaces
+Emacs
+Panel
+Neovim
+Keyboard
+Run Program...
+Xfce Terminal
+Feh
+Widget Factory
+Avahi Zeroconf Browser
+Display
+Create Launcher on the panel
+Window Manager Tweaks
+PulseAudio System Tray
+Preferred Applications
+Desktop 
+i3
+Settings Editor
+Qt V4L2 test Utility
+Log Out
+Appearance
+Thunar File Manager
+compton
+Removable Drives and Media
+Accessibility
+Settings Manager
+Terminal
+Avahi SSH Server Browser
+MIME Type Editor
+Application Finder
+Open Folder with Thunar
+Mouse and Touchpad
+About Xfce
+Icon Browser
+GTK+ Demo
+Htop
+CMake
+Session and Startup
+Power Manager
+e
+c
+n
+cn
+cns
+s
+i3-edit
+l
+zal
