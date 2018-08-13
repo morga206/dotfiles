@@ -56,6 +56,8 @@ button {
     float: left;
 }
 
+
+
 p, li {
     line-height: 1.5;
 }
@@ -185,6 +187,18 @@ div.main-box img {
     opacity: 1.0;
 }
 
+div.ascii-box {
+    text-align: center;
+}
+
+div.ascii-box pre {
+    font-family: monospace;
+    line-height: 1;
+    display: inline-block;
+    text-align: left;
+}
+
+
 /*  */
 /*  */
 /* navigation bar css */
@@ -284,7 +298,8 @@ div.main-box img {
 
 .topnav ul.menu li.top-menu ul.submenu li:hover {
     background-color: var(--magenta-color);
-    /* border: 1px solid black; */
+    border: 0px solid black;
+    border-radius: 12px;
 }
 
 /* .topnav ul { */
