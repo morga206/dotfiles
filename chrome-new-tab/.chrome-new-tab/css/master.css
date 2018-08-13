@@ -249,6 +249,7 @@ div.main-box img {
 .topnav ul.menu li.top-menu:hover ul.submenu {
     display: block;
     position: absolute;
+    width: 100%;
     top: 44px;
     /* box-shadow: 0 0 2px rgba(0, 0, 0, 0.6); */
     background-color: var(--highlight-solid-color);
