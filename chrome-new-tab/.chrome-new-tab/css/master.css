@@ -220,18 +220,23 @@ div.main-box img {
     position: relative;
 }
 
-/* This is for the links inside those top-level lists */
+/* This is for all links, both top and sub */
 .topnav ul.menu li.top-menu a {
     color: var(--light-text-color);
     text-decoration: none;
     padding: 10px;
+}
+
+/* This is for the links inside those top-level lists */
+.topnav ul.menu li.top-menu a.top-link {
+    /* padding: 10px; */
     display: inline-block;
     flex: 0 1 100%;
     text-align: center;
 }
 
 /* Make links highlighted when hovering */
-.topnav ul.menu li.top-menu a:hover, .topnav ul.menu li.top-menu:hover {
+.topnav ul.menu li.top-menu a.top-link:hover, .topnav ul.menu li.top-menu:hover {
     background-color: var(--highlight-solid-color);
 }
 
@@ -244,8 +249,9 @@ div.main-box img {
 .topnav ul.menu li.top-menu:hover ul.submenu {
     display: block;
     position: absolute;
-    top: 44px;
+    top: 45px;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+    background-color: var(--highlight-solid-color);
 }
 
 /* This is formatting for the submenu list entries */
