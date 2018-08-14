@@ -40,9 +40,9 @@ body {
   /* background-color: #4E6D68; */
   /* background-color: #f8f9fa; */
   /* background-color: var(--bg-color); */
-  background-image: url("../images/deer_sunset.png");
+  background-image: url("../images/deer_sunset_1080.png");
   /* background-position: center; */
-  background-size: 100%;
+  background-size: cover;
   height: 100%;
   min-height: 100%;
 }
