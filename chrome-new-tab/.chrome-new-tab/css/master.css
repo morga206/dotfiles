@@ -40,7 +40,7 @@ body {
   /* background-color: #4E6D68; */
   /* background-color: #f8f9fa; */
   /* background-color: var(--bg-color); */
-  background-image: url("../images/deer_sunset_1080.png");
+  background-image: url("../images/deer_sunset_4_3.png");
   /* background-position: center; */
   background-size: cover;
   height: 100%;
@@ -139,69 +139,6 @@ div.header-image img {
 
 /*  */
 /*  */
-/* Main body specific css */
-/*  */
-/*  */
-.content {
-    /* background-color: var(--bg-color); */
-    /* background-color: var(--content-bg-color); */
-    padding: 10px;
-    justify-content: space-between;
-    display: flex;
-    flex-wrap: wrap;
-    color: var(--light-text-color);
-}
-
-div.content h1, div.content h2 {
-    opacity: 1.0;
-    text-align: center;
-    /* background-color: #5CA060; */
-    /* background-color: var(--darkest-color); */
-    background-color: var(--highlight-color);
-    padding: 3px 6px;
-    border-radius: 15px;
-    /* color: #f2f2f2; */
-}
-
-div.main-box, div.side-box {
-    padding: 3px 5px;
-    line-height: 2.0em;
-    /* margin-bottom: 10px; */
-}
-
-div.main-box {
-    float: left;
-    flex: 100%;
-    /* border: 2px solid #5CA060; */
-    border: 2px solid var(--darkest-color);
-    border-radius: 15px;
-    background-color: var(--lightest-color);
-    /* opacity: 0.3; */
-    /* margin-right: 10px; */
-}
-
-div.main-box img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    opacity: 1.0;
-}
-
-div.ascii-box {
-    text-align: center;
-}
-
-div.ascii-box pre {
-    font-family: monospace;
-    line-height: 1;
-    display: inline-block;
-    text-align: left;
-}
-
-
-/*  */
-/*  */
 /* navigation bar css */
 /*  */
 /*  */
@@ -291,103 +228,95 @@ div.ascii-box pre {
     text-align: center;
 }
 
-/* Gotta make em colorful when hovering! */
-/* .topnav ul.menu li.top-menu ul.submenu li a:hover { */
-/*     background-color: var(--magenta-color); */
-/*     /\* border: 1px solid black; *\/ */
-/* } */
-
+/* This makes the submenu links change color when hovered */
 .topnav ul.menu li.top-menu ul.submenu li:hover {
     background-color: var(--magenta-color);
     border: 0px solid black;
     border-radius: 12px;
 }
 
-/* .topnav ul { */
-/*     list-style-type: none; */
-/*     margin: 0; */
-/*     padding: 0; */
-/* } */
-
-/* .menu { */
-/*     display: flex; */
-/*     flex-direction: row; */
-/*     justify-content: center; */
-/* } */
-
-/* .topnav li { */
-/*     display: block; */
-/*     list-style-type: none; */
-/*     flex: 0 1 100%; */
-/*     justify-content: center; */
-/*     padding: 5px; */
-/* } */
-
-/* .topnav ul.menu li a { */
-/*     color: var(--light-text-color); */
-/*     text-align: center; */
-/*     /\* padding: 0.9em; *\/ */
-/*     /\* padding: 14px 16px; *\/ */
-/*     padding: 5px; */
-/*     text-decoration: none; */
-/* } */
-
-/* .topnav li a:hover { */
-/*     background-color: var(--highlight-solid-color); */
-/* } */
-
-/* .topnav ul ul { */
-/*     display: none; */
-/*     position: absolute; */
-/* } */
-
-/* .topnav ul li:hover > ul { */
-/*     display: block; */
-/*     background-color: var(--highlight-solid-color); */
-/*     padding-left: 0; */
-/* } */
-
-/* .sub-menu { */
-/*     li { */
-/*         display: flex; */
-/*     } */
-
-/*     li:hover, li a:hover { */
-/*         background-color: var(--magenta-color); */
-/*     } */
-/* } */
-
-/* .topnav ul ul ul { */
-/*     margin: 0 0 0 100%; */
-/*     box-shadow: 0 0 2px rgba(0, 0, 0, 0.6); */
-/* } */
 
 
-/* Scratchwork */
 /*  */
 /*  */
-/*side box*/
-/* div.side-box { */
-/*     float: left; */
-/*     flex: 34%; */
-/* } */
+/* Main body specific css */
+/*  */
+/*  */
+.content {
+    /* background-color: var(--bg-color); */
+    /* background-color: var(--content-bg-color); */
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--light-text-color);
+}
 
-/* hacky spacer */
-/*div.space-box {
+div.content h1, div.content h2 {
+    opacity: 1.0;
+    text-align: center;
+    /* background-color: #5CA060; */
+    /* background-color: var(--darkest-color); */
+    background-color: var(--highlight-color);
+    padding: 3px 6px;
+    border-radius: 15px;
+    /* color: #f2f2f2; */
+}
+
+div.main-box, div.side-box {
+    padding: 3px 5px;
+    line-height: 2.0em;
+    /* margin-bottom: 10px; */
+}
+
+div.main-box {
     float: left;
-    flex: 1%;
-}*/
-/* responsive columns */
-/* @media screen and (max-width: 480px) { */
-/*     .topnav, .content { */
-/*         flex-direction: column; */
-/*         text-align: center; */
-/*     } */
-/* } */
+    flex: 100%;
+    /* border: 2px solid #5CA060; */
+    border: 2px solid var(--darkest-color);
+    border-radius: 15px;
+    background-color: var(--lightest-color);
+    /* opacity: 0.3; */
+    /* margin-right: 10px; */
+}
 
-/* /\* responsive columns *\/ */
-/* @media screen and (max-width: 480px) { */
-/*     .main-box{ */
-/*         margin-right: unset; */
-/*     } */
-/* } */
+div.main-box img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    opacity: 1.0;
+}
+
+div.ascii-box {
+    text-align: center;
+}
+
+div.ascii-box pre {
+    font-family: monospace;
+    line-height: 1;
+    display: inline-block;
+    text-align: left;
+}
+
+
+/*  */
+/*  */
+/* Media queries */
+/*  */
+/*  */
+
+/* This changes the background image to accomodate different aspect ratios */
+@media screen and (min-aspect-ratio: 16/9) {
+    body {
+        background-image: url("../images/deer_sunset_1080.png");
+    }
+}
+
+
+
+
+
+
+
+
