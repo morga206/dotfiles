@@ -114,9 +114,9 @@ div.title p {
     font: normal 0.9em;
 }
 
-#ef-logo {
-    margin-top: 40px;
-}
+/* #ef-logo { */
+/*     margin-top: 40px; */
+/* } */
 
 #clock {
     float: center;
@@ -157,14 +157,14 @@ div.content h1, div.content h2 {
     /* background-color: #5CA060; */
     /* background-color: var(--darkest-color); */
     background-color: var(--highlight-color);
-    padding: 6px;
+    padding: 3px 6px;
     border-radius: 15px;
     /* color: #f2f2f2; */
 }
 
 div.main-box, div.side-box {
-    padding: 5px;
-    line-height: 2.5em;
+    padding: 3px 5px;
+    line-height: 2.0em;
     /* margin-bottom: 10px; */
 }
 
