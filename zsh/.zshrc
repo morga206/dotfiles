@@ -70,6 +70,7 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 source ~/.zsh_aliases
 #cn
+c
 
 # User configuration
 

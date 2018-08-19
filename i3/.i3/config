@@ -314,7 +314,12 @@ exec ~/.fehbg &
     #exec_always --no-startup-id xscreensaver -no-splash &     
     #exec_always --no-startup-id xss-lock -- i3lock -i /usr/share/pixmaps/river_sunset_scaled.png &
     exec_always --no-startup-id xss-lock -- ~/scripts/scramble &
+
 bindsym $mod+Shift+v exec ~/.vim-anywhere/bin/run
+
+# screenshot a selection of the screen
+bindsym --release $mod+Shift+z exec scrot -s ~/Pictures/screenshots/selection_%Y-%m-%d.png
+bindsym --release $mod+z exec scrot ~/Pictures/screenshots/%Y-%m-%d.png
 
 #exec_always --no-startup-id xss-lock -- /home/drew/.local/bin/asciiquarium_screensaver &
 
