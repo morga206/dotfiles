@@ -1,0 +1,61 @@
+This guide only applies to XFCE-based stuff, 
+    ie Xubuntu and GalliumOS.
+
+1) update (obvs)
+2) install basic necessities
+    -vim
+    -pmount
+    -git
+    -gnome-terminal
+    -feh
+    -neofetch
+
+3) adjust XFCE settings:
+    -reverse touchpad
+    -remove "ALT+x" keybinds
+    -map whiskermenu to Super
+    -change CTL+ALT+T to gnome-menu
+    -change window theme
+    -change overall theme
+    -add "boyd" user
+
+4) install gnome-themes from B:Software>CLI
+    -save a theme first
+    -set to aco
+    -set aco as default
+    -set transparancy
+
+5) install powerline-fonts
+    -apt "fonts-powerline"
+    -check powerline beta docs in Software>NeoVim
+
+6) install zsh/oh-my-zsh
+    -check guide in Software>CLI
+
+7) install Neovim using Software>NeoVim>Optixal
+
+8) check wiki.galliumos.org/Additional_Software
+    -most important is flash, powertop, and tlp
+    -hold off on steam til after this guide
+
+9) install xubuntu-desktop (takes forever)
+
+10) follow Feeble Nerd's guide in Software>i3 up to installing i3
+
+11) after installing i3, go to i3-gaps repo from Software>i3 and follow directions
+    -use "/home/drew/.local" as prefix
+
+12) copy compton.conf, .i3blocks.conf, .i3/config
+
+13) Continue following Feeble Nerd guide, with these changes:
+    -don't bother adding the ppas for panel workspaces
+    -remove xfce4-panel from the session along with the other two
+
+You *should* be all set! If there are still bugs, don't shoot the messenger.
+And now, some bonus software!
+
+14) To install hangups and discurses, follow the guides in Software>Chat
+    -IMPORTANT: install python3-venv and install both programs in their own virtual environments
+    -for Hangups, gotta use the authentication script in the bookmark folder
+
+
