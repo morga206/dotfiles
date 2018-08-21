@@ -1,0 +1,9 @@
+1) Execute the command "localectl set-x11-keymap us chromebook" and log out/back in
+
+2) Setup dotfiles
+   a) Execute "git clone https://github.com/morga206/dotfiles"
+   b) cd into dotfiles
+   c) "sudo pacman -Syu stow emacs vim"
+   d) stow chrome-new-tab, spacemacs
+
+3) install yay: https://github.com/Jguer/yay
