@@ -51,12 +51,12 @@ bindsym $mod+e exec emacs
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+Shift+d exec dmenu_run
+bindsym $mod+Shift+d exec --no-startup-id dmenu_run
 
-bindsym $mod+d exec dmenu_extended_run
+bindsym $mod+d exec --no-startup-id dmenu_extended_run
 
 # lock and scramble screen
-bindsym $mod+Shift+t exec ~/scripts/scramble
+bindsym $mod+Shift+t exec --no-startup-id ~/scripts/scramble
 
 # For use with xfce4 whisker popup menu in Mint XFCE:
 # bindsym $mod+d exec dmenu_run
@@ -177,7 +177,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 #-old-#bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
-bindsym $mod+Shift+e exec xfce4-session-logout
+bindsym $mod+Shift+e exec --no-startup-id xfce4-session-logout
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -306,7 +306,7 @@ exec ~/.fehbg &
 #    }
     
     #bindsym XF86PowerOff mode "$mode_system"
-    bindsym XF86PowerOff exec xfce4-session-logout
+    bindsym XF86PowerOff exec --no-startup-id xfce4-session-logout
     bindsym F8 exec amixer -q -D pulse sset Master toggle
     bindsym F9 exec amixer -q -D pulse sset Master 5%- on
     bindsym F10 exec amixer -q -D pulse sset Master 5%+ on    
@@ -318,8 +318,8 @@ exec ~/.fehbg &
 bindsym $mod+Shift+v exec ~/.vim-anywhere/bin/run
 
 # screenshot a selection of the screen
-bindsym --release $mod+Shift+z exec scrot -s ~/Pictures/screenshots/selection_%Y-%m-%d.png
-bindsym --release $mod+z exec scrot ~/Pictures/screenshots/%Y-%m-%d.png
+bindsym --release $mod+Shift+z exec --no-startup-id scrot -s ~/Pictures/screenshots/selection_%Y-%m-%d.png
+bindsym --release $mod+z exec scrot --no-startup-id ~/Pictures/screenshots/%Y-%m-%d.png
 
 #exec_always --no-startup-id xss-lock -- /home/drew/.local/bin/asciiquarium_screensaver &
 
