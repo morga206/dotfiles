@@ -17,7 +17,6 @@ alias man-packs="comm -23 <(aptitude search '~i !~M' -F '%p' | sed 's/ *$//' | s
 # Misc Programs with long names
 alias hangouts="flatpak run com.github.yakyak.YakYak"
 alias hangups="venv/bin/hangups"
-alias discurses="discurses/bin/discurses"
 alias pipes="pipes.sh"
 alias py3="python3"
 alias weather="curl wttr.in"
