@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH="$PATH:/home/drew/.local/bin/bin:/home/drew/tmp/cool-retro-term"
+export PATH="$PATH:/home/drew/.local/bin/bin"
 
 # Path to your oh-my-zsh installation.
   export ZSH="/home/drew/.oh-my-zsh"
