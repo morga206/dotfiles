@@ -7,3 +7,7 @@
    d) stow chrome-new-tab, spacemacs
 
 3) install yay: https://github.com/Jguer/yay
+
+4) setup steam
+   a) pacman -Syu steam steam-native-runtime ntfs-3g python2
+   b) mount Data drive as ntfs-3g, specify UID and GID
