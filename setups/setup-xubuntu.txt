@@ -31,6 +31,8 @@ This guide only applies to XFCE-based stuff,
 
 6) install zsh/oh-my-zsh
     -check guide in Software>CLI
+    -if sourcing .zshrc throws an error, copy .fzf.bash to .fzh.zsh
+    -after copying, change both references to "bash" to "zsh"
 
 7) install Neovim using Software>NeoVim>Optixal
 
