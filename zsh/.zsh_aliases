@@ -19,7 +19,6 @@ alias hangouts="flatpak run com.github.yakyak.YakYak"
 alias hangups="hangups/bin/hangups"
 alias pipes="pipes.sh"
 alias py3="python3"
-alias show-top="history | awk '{CMD[$2]++;count++;}END { for (a in CMD)print CMD[a] " " CMD[a]/count*100 "% " a;}' | grep -v "./" | column -c3 -s " " -t | sort -nr | nl |  head -n"
 alias weatherel="curl -s wttr.in/east_lansing | head -n -2"
 
 # Functions
@@ -30,4 +29,9 @@ function cheat() {
 # gets weather for an arbitrary location. Multiple words must be separated by '+'
 function weather() {
     curl -s wttr.in/~"$1" | head -n -4
+}
+
+# shows most-used commands, of the form "show-top 20" where the number argument is the number of commands to show
+function show-top() {
+    history | awk '{CMD[$2]++;count++;}END { for (a in CMD)print CMD[a] " " CMD[a]/count*100 "% " a;}' | grep -v "./" | column -c3 -s " " -t | sort -nr | nl |  head -n $1
 }
