@@ -16,3 +16,4 @@
    a) yay -Syu gnome-terminal-transparency feh i3-gaps i3lock i3status i3blocks dmenu-extended-git
    b) stow i3, i3blocks, dmenu-extended
    c) copy deer-sunset.png from chrome-new-tab to wherever wallpapers will be kept
+   d) sudo pacman -Syu ttf-font-awesome powerline2 otf-font-awesome awesome-terminal-fonts
