@@ -11,3 +11,13 @@
 4) setup steam
    a) pacman -Syu steam steam-native-runtime ntfs-3g python2
    b) mount Data drive as ntfs-3g, specify UID and GID
+
+5) setup i3-related stuff
+   a) yay -Syu gnome-terminal-transparency feh i3-gaps i3lock i3status i3blocks dmenu-extended-git
+   b) stow i3, i3blocks, dmenu-extended
+   c) copy deer-sunset.png from chrome-new-tab to wherever wallpapers will be kept
+   d) sudo pacman -Syu ttf-font-awesome powerline2 otf-font-awesome awesome-terminal-fonts
+
+6) set up audio system tray
+   a) yay -Syu pasystray
+   b) should automatically add itself to startup applications, but check just to be safe
