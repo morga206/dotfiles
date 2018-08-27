@@ -8,12 +8,6 @@ alias i3-edit="nvim ~/.i3/config"
 alias l="ls -al"
 alias zal="nvim ~/.zsh_aliases"
 
-# Package Management Aliases
-alias up="sudo apt update && sudo apt upgrade"
-alias sai="sudo apt install"
-alias saar="sudo apt autoremove"
-alias man-packs="comm -23 <(aptitude search '~i !~M' -F '%p' | sed 's/ *$//' | sort -u) <(gzip -dc /var/log/installer/initial-status.gz | sed -n 's/^Package: //p' | sort -u)"
-
 # Misc Programs with long names
 alias hangouts="flatpak run com.github.yakyak.YakYak"
 alias hangups="hangups/bin/hangups"

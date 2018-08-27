@@ -1,0 +1,7 @@
+# APT aliases
+alias up="sudo apt update && sudo apt upgrade"
+alias sai="sudo apt install"
+alias saar="sudo apt autoremove"
+alias man-packs="comm -23 <(aptitude search '~i !~M' -F '%p' | sed 's/ *$//
+    ' | sort -u) <(gzip -dc /var/log/installer/initial-status.gz | sed -n 's/^P
+    ackage: //p' | sort -u)"
