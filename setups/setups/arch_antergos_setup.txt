@@ -14,7 +14,9 @@
 
 5) setup i3-related stuff
    a) yay -Syu gnome-terminal-transparency feh i3-gaps i3lock i3status i3blocks dmenu-extended-git
+   b) sudo pacman -Syu sysstat acpi (for battery & cpu blocks)
    b) stow i3, i3blocks, dmenu-extended
+   c) change "/usr/share/i3blocks" to "/usr/lib/i3blocks"
    c) copy deer-sunset.png from chrome-new-tab to wherever wallpapers will be kept
    d) sudo pacman -Syu ttf-font-awesome powerline2 otf-font-awesome awesome-terminal-fonts
 

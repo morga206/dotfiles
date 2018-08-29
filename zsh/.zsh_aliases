@@ -9,8 +9,6 @@ alias l="ls -al"
 alias zal="nvim ~/.zsh_aliases"
 
 # Misc Programs with long names
-alias hangouts="flatpak run com.github.yakyak.YakYak"
-alias hangups="hangups/bin/hangups"
 alias pipes="pipes.sh"
 alias py3="python3"
 alias weatherel="curl -s wttr.in/east_lansing | head -n -2"
