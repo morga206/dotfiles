@@ -21,5 +21,5 @@
    d) sudo pacman -Syu ttf-font-awesome powerline2 otf-font-awesome awesome-terminal-fonts
 
 6) set up audio system tray
-   a) yay -Syu pasystray
+   a) yay -Syu pasystray pavucontrol paprefs
    b) should automatically add itself to startup applications, but check just to be safe
